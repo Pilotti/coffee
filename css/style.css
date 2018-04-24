@@ -1,0 +1,198 @@
+@font-face{
+	font-family: "oswald";
+	src:
+	url(../fonts/oswald/Oswald.eot),
+	url(../fonts/oswald/Oswald.ttf) format('truetype'),
+	url(../fonts/oswald/Oswald.otf),
+	url(../fonts/oswald/Oswald.svg) format('svg'),
+	url(../fonts/oswald/Oswald.woff);
+}
+
+@font-face{
+	font-family: "quattro";
+	src:
+	url(../fonts/quattrocentosans/QuattrocentoSans-Regular.eot),
+	url(../fonts/quattrocentosans/QuattrocentoSans-Regular.ttf) format('truetype'),
+	url(../fonts/quattrocentosans/QuattrocentoSans-Regular.otf),
+	url(../fonts/quattrocentosans/QuattrocentoSans-Regular.svg) format('svg'),
+	url(../fonts/quattrocentosans/QuattrocentoSans-Regular.woff);
+}
+
+body{
+	background-image: url("../images/coffe.jpg");
+}
+
+header{
+	font-family: oswald;
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	top: 0;
+	left: 0
+}
+
+#logo{
+	background-color:white;
+	width: 75%;
+	height: 100%;
+	float:left;
+	font-size: 30px;
+	text-align: center;
+}
+
+nav{
+	width: 25%;
+	background-color: white;
+	float:left;
+	height: 100%
+}
+
+nav ul{
+	list-style: none;
+}
+
+nav ul li{
+	float: left;
+	padding-right: 30px;
+	position: relative;
+	top: -3px;
+}
+
+nav ul li a:link {
+	color: black;
+	text-decoration:none;
+}
+
+nav ul li a:visited {
+    color: black;
+	text-decoration:none;
+}
+
+nav ul li a:hover {
+    color: #8B4513;
+	text-decoration:none;
+	text-shadow: 0 0 7px black;
+}
+
+#selec{
+	text-shadow: 0 0 7px black;
+	font-size: 18px;
+}
+
+main {
+	width: 100%;
+	margin-top: 100px;
+	position: relative;
+	min-height: 700px;
+	width: 100%;
+}
+
+#caixa{
+	width: 300px;
+	height: 200px;
+	background-image: url("../images/bg-pattern.jpg");
+	border: double 3px #000;
+}
+
+#textoxd{
+	width: 100%;
+	height: 100px;
+	font-family: oswald;
+	font-size: 24px;
+	text-align: center;
+	position: relative;
+	top: 30%;
+}
+
+#inputbox{
+	width: 100%;
+	height: 100px;
+}
+
+main div li{
+	font-family: quattro;
+	list-style: none;
+	font-size: 16px;
+	padding: 5px;
+	border: 1px solid black;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+#gerar{
+	font-family: oswald;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	height: 25px;
+	background-color: black;
+	border: solid 1px black;
+	
+}
+
+#botoes{
+	float: left;
+}
+
+footer{
+	font-family: quattro;
+	width: 100%;
+	text-align: center;
+	background-color: brown;
+	position:absolute;
+    bottom: 0;
+	left: 0;
+}
+
+.boxbg{
+	width: 50%;
+	height: 800px;
+	background-image: url("../images/bg-pattern.jpg");
+	margin-left: 25%;
+	border: 4px double #000;
+}
+
+#ffboxbg{
+	font-family: oswald;
+	text-align: center;
+}
+
+.dsemana{
+	text-align: center;
+	width: 100%;
+	height: 20%;
+}
+
+.dsemana2{
+	font-family: oswald;
+	width: 100%;
+	height: 30%;
+}
+
+.manha{
+	width: 50%;
+	height: 70%;
+	float: left;
+}
+
+.tarde{
+	width: 50%;
+	height: 70%;
+	float: left;
+}
+
+.turno{
+	font-family: oswald;
+	width: 100%;
+	height: 40%;
+	float: left;
+}
+
+.npessoa{
+	font-family: quattro;
+	font-size: 24px;
+	width: 100%;
+	height: 60%;
+	float: left;
+}
